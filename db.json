@@ -1,0 +1,581 @@
+{
+  "users": [
+    {
+      "email": "admin@learnwithsumit.com",
+      "password": "$2a$10$/TDPCTU28mFzKnSsW2pHSu512mpMKxLf8eiPbcTFLSNL87tbZBp3W",
+      "role": "admin",
+      "name": "LWS Admin",
+      "id": 1
+    },
+    {
+      "email": "mahmudurfahim@gmail.com",
+      "password": "$2a$10$ycoO.RHp6NzLRduTC4QZy.eek2hbx/eCUEP2uWMCsHyk5Bj8CpJnq",
+      "name": "Mahmudur Rahman Fahim",
+      "role": "admin",
+      "id": 2
+    }
+  ],
+  "equipments": [
+    {
+      "id": 1,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spin800.png`",
+      "brand": "Spinreact",
+      "name": "Spin 800",
+      "category": "Full Auto BioChemistry",
+      "price": 0,
+      "description": "Clinical chemestry analyzer, fully automated, 420 tests/hour up to 640 tests/hour with ISE Refrigerated reagent compartment, 90 samples onboard capacity, Internal bar code reader"
+    },
+    {
+      "id": 2,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spin200e.png`",
+      "name": "Spin 200E",
+      "brand": "Spinreact",
+      "category": "Full Auto BioChemistry",
+      "price": 0,
+      "description": "This is test 2"
+    },
+    {
+      "id": 3,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spinx5.png`",
+      "name": "Spin 640",
+      "brand": "Spinreact",
+      "category": "Full Auto BioChemistry",
+      "price": 0,
+      "description": "This is test 3"
+    },
+    {
+      "id": 4,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spin5compact.png`",
+      "name": "Spincell 5 compact",
+      "brand": "Spinreact",
+      "category": "Auto Hematology Analyzer",
+      "price": 0,
+      "description": "Loream Ipsum"
+    },
+    {
+      "id": 5,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spincell5plus.png`",
+      "name": "Spincell 5 plus",
+      "brand": "Spinreact",
+      "category": "Auto Hematology Analyzer",
+      "price": 0,
+      "description": "This is test"
+    },
+    {
+      "id": 6,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spincell3.png`",
+      "name": "Spincell 3",
+      "brand": "Spinreact",
+      "category": "Auto Hematology Analyzer",
+      "price": 0,
+      "description": "This is test"
+    },
+    {
+      "id": 7,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/rx50.png`",
+      "name": "RX-50V",
+      "brand": "Microlab",
+      "category": "Semi Auto BioChemistry",
+      "price": 0,
+      "description": "Loream Ipsum"
+    },
+    {
+      "id": 8,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/rx50.png`",
+      "name": "ARX-199i",
+      "brand": "Microlab",
+      "category": "Semi Auto BioChemistry",
+      "price": 0,
+      "description": "This is test"
+    },
+    {
+      "id": 9,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/microlyte.png`",
+      "name": "Microlyte",
+      "brand": "Microlab",
+      "category": "Electrolite",
+      "price": 0,
+      "description": "Loream Ipsum"
+    },
+    {
+      "id": 10,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/arxclotsc.png`",
+      "name": "ARX-CLOT-SC",
+      "brand": "Microlab",
+      "category": "Electrolite",
+      "price": 0,
+      "description": "Loream Ipsum"
+    },
+    {
+      "id": 11,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/urispin120.png`",
+      "name": "Urispin 120",
+      "brand": "Spinreact",
+      "category": "Others",
+      "price": 0,
+      "description": "Loream Ipsum"
+    },
+    {
+      "id": 12,
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/micropipet.png`",
+      "name": "Micropipette",
+      "brand": "Spinreact",
+      "category": "Others",
+      "price": 0,
+      "description": "Loream Ipsum"
+    }
+  ],
+  "reagents": [
+    {
+      "id": 1,
+      "name": "ALBUMIN",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+    {
+      "id": 2,
+      "name": "ALBUMIN",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x50 ml"
+    },
+    {
+      "id": 3,
+      "name": "TOTAL BILIRUBIN DMSO",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x150 ml"
+    },
+    {
+      "id": 4,
+      "name": "TOTAL & DIRECT BILIRUBIN DMSO",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x150 ml"
+    },
+    {
+      "id": 5,
+      "name": "ALBCREATININE KINECTIC JAFFE UMIN",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x150 ml"
+    },
+    {
+      "id": 6,
+      "name": "CREATININE KINECTIC JAFFE",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+    {
+      "id": 7,
+      "name": "GLUCOSE PAP",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "4x250 ml"
+    },
+    {
+      "id": 8,
+      "name": "GLUCOSE PAP LIQUID MONO",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "1x1000 ml"
+    },
+    {
+      "id": 9,
+      "name": "HAEMOGLOBIN (Reagent concentrated 50x)",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "4x5 ml"
+    },
+    {
+      "id": 10,
+      "name": "HAEMOGLOBIN with standard",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "4x50 ml"
+    },
+    {
+      "id": 11,
+      "name": "TOTAL PROTEIN",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x50 ml"
+    },
+    {
+      "id": 12,
+      "name": "TOTAL PROTEIN",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+    {
+      "id": 13,
+      "name": "TOTAL PROTEIN(URINE&CSF)",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x50 ml"
+    },
+    {
+      "id": 14,
+      "name": "UREA UV.GLDH",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "10x50 ml"
+    },
+    {
+      "id": 15,
+      "name": "UREA 37°",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x100 ml"
+    },
+    {
+      "id": 16,
+      "name": "UREA 37°",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+    {
+      "id": 17,
+      "name": "URIC ACID LIQUID TWO REAGENTS",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+    {
+      "id": 18,
+      "name": "ALCALCIUM OCC. V/V BUMIN",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x50 ml"
+    },
+    {
+      "id": 19,
+      "name": "TIBC",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x150 ml"
+    },
+    {
+      "id": 20,
+      "name": "IRON FERROZINE",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x150 ml"
+    },
+    {
+      "id": 21,
+      "name": "MAGNESIUM/MAGESIO",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x150 ml"
+    },
+    {
+      "id": 22,
+      "name": "PHOSPHORUS UV.",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+    {
+      "id": 23,
+      "name": "POTASSIUM TBP-Na w/percipitation",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "4x250 ml"
+    },
+    {
+      "id": 24,
+      "name": "SODIUM Mg-Uranlycetate w/percipitation",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "1x1000 ml"
+    },
+    {
+      "id": 25,
+      "name": "CHOLESTEROL CHOD-PAP",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "4x5 ml"
+    },
+    {
+      "id": 26,
+      "name": "CHOLESTEROL CHOD-PAP",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "4x50 ml"
+    },
+    {
+      "id": 27,
+      "name": "CHOLESTEROL LIQUID MONO",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x50 ml"
+    },
+    {
+      "id": 28,
+      "name": "HDL CHOLESTEROL DIRECT",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+    {
+      "id": 29,
+      "name": "LDL CHOLESTEROL DIRECT",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x50 ml"
+    },
+    {
+      "id": 30,
+      "name": "TRIGLYCERIDES GPO-PAP",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "10x50 ml"
+    },
+    {
+      "id": 31,
+      "name": "TRIGLYCERIDES GPO-PAP",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x100 ml"
+    },
+    {
+      "id": 32,
+      "name": "TRIGYCERIDES LIQUID MONO",
+      "category": "Clinical Chemistry",
+      "price": 0,
+      "pacsize": "2x250 ml"
+    },
+
+    {
+      "id": 51,
+      "name": "COMPLEMENT C3",
+      "category": "Immuno Chemistry",
+      "price": 0,
+      "pacsize": "1x40 ml / 1x2ml"
+    },
+    {
+      "id": 52,
+      "name": "COMPLEMENT C4",
+      "category": "Immuno Chemistry",
+      "price": 0,
+      "pacsize": "1x40 ml / 1x2ml"
+    },
+    {
+      "id": 53,
+      "name": "ASO TURBILATEX (included Calibrator)",
+      "category": "Immuno Chemistry",
+      "price": 0,
+      "pacsize": "40 ml /10 ml"
+    },
+    {
+      "id": 54,
+      "name": "RF TURBILATEX(with Calibrator)",
+      "category": "Immuno Chemistry",
+      "price": 0,
+      "pacsize": "1x40 ml / 1x2ml"
+    },
+    {
+      "id": 55,
+      "name": "CRP TURBILATEX (with Calibrator)",
+      "category": "Immuno Chemistry",
+      "price": 0,
+      "pacsize": "1x40 ml / 1x2ml"
+    },
+    {
+      "id": 56,
+      "name": "APTT",
+      "category": "Blood Grouping",
+      "price": 0,
+      "pacsize": "5x4 ml"
+    },
+    {
+      "id": 57,
+      "name": "P.T.",
+      "category": "Blood Grouping",
+      "price": 0,
+      "pacsize": "10x2 ml"
+    },
+    {
+      "id": 58,
+      "name": "ANTI-Am",
+      "category": "Blood Grouping",
+      "price": 0,
+      "pacsize": "10 ml"
+    },
+    {
+      "id": 59,
+      "name": "ANTI-Bm",
+      "category": "Blood Grouping",
+      "price": 0,
+      "pacsize": "10 ml"
+    },
+    {
+      "id": 60,
+      "name": "ANTI-D IgG/IgM (Rho) Monoclonal",
+      "category": "Blood Grouping",
+      "price": 0,
+      "pacsize": "10 ml"
+    },
+    {
+      "id": 61,
+      "name": "ASO LATEX REAGENT ONLY",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "1x5 ml"
+    },
+    {
+      "id": 62,
+      "name": "ASO LATEX (complete kit)",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test"
+    },
+    {
+      "id": 63,
+      "name": "RF LATEX (complete kit)",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test"
+    },
+    {
+      "id": 64,
+      "name": "RF LATEX REAGENT ONLY",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "1x5 ml"
+    },
+    {
+      "id": 65,
+      "name": "CRP LATEX",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test"
+    },
+    {
+      "id": 66,
+      "name": "CRP LATEX REAGENT ONLY",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "1x5 ml"
+    },
+    {
+      "id": 67,
+      "name": "WAALER ROSE (complete kit)",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test"
+    },
+    {
+      "id": 68,
+      "name": "RPR CARBON",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "150 test"
+    },
+    {
+      "id": 69,
+      "name": "RPR CARBON (complete kit)",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "10x5 ml"
+    },
+    {
+      "id": 70,
+      "name": "HCG LATEX ",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test"
+    },
+    {
+      "id": 71,
+      "name": "HCG LATEX (complete kit)",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "1x5 ml"
+    },
+    {
+      "id": 72,
+      "name": "Typhi O",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test(5 ml)"
+    },
+    {
+      "id": 73,
+      "name": "Typhi O",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "50 ml"
+    },
+    {
+      "id": 74,
+      "name": "Brucella Abortus",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test(5 ml)"
+    },
+    {
+      "id": 75,
+      "name": "Proteus OX2",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test(5 ml)"
+    },
+    {
+      "id": 76,
+      "name": "Proteus OX19",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test(5 ml)"
+    },
+    {
+      "id": 77,
+      "name": "Proteus OXK",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "100 test(5 ml)"
+    },
+    {
+      "id": 78,
+      "name": "POSITIVE POLIVALENT CONTROL",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "1x1 ml"
+    },
+    {
+      "id": 79,
+      "name": "NEGATIVE POLIVALENT CONTROL",
+      "category": "Serology",
+      "price": 0,
+      "pacsize": "1x1 ml"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "We are hiring",
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spin800.png`",
+      "time": "2023-12-31",
+      "description": "We are looking for Electrical Engineer. If you are interested to work with us then send your cv to rajanibf@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Rajanigandha Team cox bazar tour",
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spin800.png`",
+      "time": "2023-12-31",
+      "description": "Annual tour destination of rajanigandha international was held on Cox Bazar"
+    },
+    {
+      "id": 3,
+      "title": "New Equipment in stock",
+      "image": "`${import.meta.env.VITE_REACT_URL}/img/Equipments/spin640.png`",
+      "time": "2023-12-31",
+      "description": "We imported new hematology machine from spinreact this month"
+    }
+  ]
+}

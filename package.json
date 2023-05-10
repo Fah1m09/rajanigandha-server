@@ -1,0 +1,16 @@
+{
+  "name": "rajanigandha-json-server",
+  "description": "Rajanigandha api with json-server by Mahmudur Rahman Fahim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --no-cors true -m ./node_modules/json-server-auth  --port 9000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "json-server-auth": "^2.1.0"
+  },
+  "keywords": [],
+  "author": "Mahmudur Rahman Fahim",
+  "license": "ISC"
+}
