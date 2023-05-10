@@ -13,8 +13,9 @@ server.use(middlewares);
 
 const rules = auth.rewriter({
     users: 5,
-    conversations: 660,
-    messages: 660,
+    equipments: 660,
+    reagents: 660,
+    news: 100
 });
 
 server.use(rules);
